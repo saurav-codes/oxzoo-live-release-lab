@@ -1,6 +1,10 @@
 # release-lab
 
-> **Role in the zoo:** project `release-lab` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with ox on server s4 at https://release-lab.s4.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
+Deployed with [ox](https://deploywithox.com): deploy a repo to your own server with one command, no Docker. [Docs](https://deploywithox.com/docs) · [Stack guides](https://deploywithox.com/docs/guides)
+
+**Live demo:** https://release-lab.s4.zoo.sorv.dev
+
+> **Role in the zoo:** project `release-lab` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with [ox](https://deploywithox.com) on server s4 at https://release-lab.s4.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
 
 A Go app with no dependencies and no `ox.toml` that shows which release is answering. It is the zoo's lab for deploys, staging, branch previews, promote, and rollback.
 
