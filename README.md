@@ -40,6 +40,8 @@ Production is `release-lab.s4.zoo.sorv.dev`. Keep the page open in a tab during 
 4. **Promote.** `ox promote release-lab` prints the commits staging has that production does not and asks y/N; `ox promote release-lab --yes --wait` skips the question and exits with the deploy's result. Production gets staging's commit and keeps its own `RELEASE_LABEL`, because variables do not move.
 5. **Rollback.** `ox rollback release-lab --wait` goes back to the release that was live before, without a rebuild; `--release ID` picks one. The page's release changes back, still with no failures.
 
+The `preview-a` branch carries one commit beyond `main`, this paragraph, so a preview of it and a promotion to production change the release id the page shows.
+
 ## Tests
 
 ```sh
